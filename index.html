@@ -1,14 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dracula" style="scroll-behavior: smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Showcase NFT</title>
   </head>
-  <body>
-    <h1>
-      This is a static template, there is no bundler or bundling involved!
-    </h1>
+  <body class="bg-gradient-to-r from-indigo-600 to-pink-500 p-5">
+    <div
+      class="container m-auto flex md:flex-row flex-col"
+    >
+      <div class="flex-1">
+        <div class="flex items-center">
+          <h1 class="font-bold text-primary text-3xl">Showcase NFT</h1>
+          <ul class="flex py-1 px-5 ml-10">
+            <li><a class="text-xl p-5 hover:text-neutral-focus">Trending</a></li>
+            <li><a class="text-xl p-5 hover:text-neutral-focus">OpenSea</a></li>
+            <li><a class="text-xl p-5 hover:text-neutral-focus">MagicEden</a></li>
+          </ul>
+        </div>
+
+        <div id="content-container" class="mt-10">
+          
+            <h1 class="text-4xl text-center text-primary font-bold my-3">Explore Colectible Ethereum & Solana NFTs</h1>
+            <div
+              class="carousel border-solid border-2 carousel-center max-w-full p-4 space-x-4 rounded-box mt-10"
+            >
+              <div class="carousel-item relative max-w-xs">
+                <img
+                  src="https://i.seadn.io/gcs/files/f3b11e36be14a5d31c75b19d03996fed.gif?auto=format&w=1920"
+                  class="rounded-box"
+                />
+                <div class="absolute w-full bg-gradient-to-t from-black bottom-0 rounded-box p-3">
+                  <h3 class="text-2xl text-primary font-bold ">
+                    RENGO
+                  </h3>
+                  <p
+                    class="text-md text-neutral-content font-bold"
+                  >
+                    Floor Price 2.7 ETH
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item relative max-w-xs">
+                <img
+                  src="https://i.seadn.io/gcs/files/e83060afb04e12a354d1de52ca8e2d3c.gif?auto=format&w=1920"
+                  class="rounded-box"
+                />
+                <div class="absolute w-full bg-gradient-to-t from-black bottom-0 rounded-box p-3">
+                  <h3 class="text-2xl text-primary font-bold ">
+                    Kitaro World
+                  </h3>
+                  <p
+                    class="text-md text-neutral-content font-bold "
+                  >
+                    Floor Price 0.13 ETH
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item relative max-w-xs">
+                <img
+                  src="https://i.seadn.io/gae/4k4hX_GGIDocSxc91M6Ak-2mqpqzW6T266r-LlivahH6pgNmT1MRy8_H6UZX8UPDODJ_HMvTXqE9P8DXIeLiuBp9t3m7NF-ck8Xn?auto=format&w=1920"
+                  class="rounded-box"
+                />
+                <div class="absolute w-full bg-gradient-to-t from-black bottom-0 rounded-box p-3">
+                  <h3 class="text-2xl text-primary font-bold ">
+                    Dreamloops
+                  </h3>
+                  <p
+                    class="text-md text-neutral-content font-bold "
+                  >
+                    Floor Price 0.05 ETH
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item relative max-w-xs">
+                <img
+                  src="https://i.seadn.io/gcs/files/a72acef0c68743e9214a2de2630914b0.gif?auto=format&w=1920"
+                  class="rounded-box"
+                />
+                <div class="absolute w-full bg-gradient-to-t from-black bottom-0 rounded-box p-3">
+                  <h3 class="text-2xl text-primary font-bold ">
+                    the little frens
+                  </h3>
+                  <p
+                    class="text-md text-neutral-content font-bold "
+                  >
+                    Floor Price <0.01 ETH
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item relative max-w-xs">
+                <img
+                  src="https://i.seadn.io/gae/7yfMzkPPxZKJIIn7nic9V4T9YMrR73-u_2k2ZDX36--N9UMEER9e4iENOB2EnaBrqPpBtGnD4sCDPbYsMjReO5IwI22Hei0rEM-ynNI?auto=format&w=1920"
+                  class="rounded-box"
+                />
+                <div class="absolute w-full bg-gradient-to-t from-black bottom-0 rounded-box p-3">
+                  <h3 class="text-2xl text-primary font-bold ">
+                    Pop Culture#2
+                  </h3>
+                  <p
+                    class="text-md text-neutral-content font-bold bottom-5 left-5"
+                  >
+                    Floor Price 0.25 ETH
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item relative max-w-xs">
+                <img
+                  src="https://i.seadn.io/gae/wMrQOD9J3_gKK8CrM7Zz8VL7ZdIH2KTpyRQ9yY4EODgKQZ7xOD4bu0UQ3JNj_O9L_pVIYPnZRUdL7EYDKyDwrrus-BHyK3wSoh3-aWE?auto=format&w=1920"
+                  class="rounded-box"
+                />
+                <div class="absolute w-full bg-gradient-to-t from-black bottom-0 rounded-box p-3">
+                  <h3 class="text-2xl text-primary font-bold ">
+                    Critters Cult
+                  </h3>
+                  <p
+                    class="text-md text-neutral-content font-bold bottom-5 left-5"
+                  >
+                    Floor Price 26 SOL
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+
+        <div id="content-container" class="mt-10">
+          <h1 class="text-3xl text-left text-primary font-bold mb-3">Trending</h1>
+          <div class="flex flex-row justify-center">
+            <div class="basis-1/2 mr-5">
+              <div class="flex justify-between border-y-2 p-2">
+                <h4>Collection</h4>
+                <h4>Floor Price</h4>
+              </div>
+              <div class="flex items-center justify-between p-2">
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <img src="https://i.seadn.io/gcs/files/bfc7296fe6ca88521a4b28d7b084a085.gif?auto=format&w=1920" class="w-20 rounded-box" />
+                  <span>poobsnft</span>
+                </div>
+                <h4>0.07 ETH</h4>
+              </div>
+              <div class="flex items-center justify-between p-2">
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <img src="https://i.seadn.io/gcs/files/f3b11e36be14a5d31c75b19d03996fed.gif?auto=format&w=1920" class="w-20 rounded-box" />
+                  <span>RENGO</span>
+                </div>
+                <h4>2.7 ETH</h4>
+              </div>
+              <div class="flex items-center justify-between p-2">
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <img src="https://i.seadn.io/gcs/files/bfc7296fe6ca88521a4b28d7b084a085.gif?auto=format&w=1920" class="w-20 rounded-box" />
+                  <span>poobsnft</span>
+                </div>
+                <h4>0.07 ETH</h4>
+              </div>
+              <div class="flex items-center justify-between p-2">
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <img src="https://i.seadn.io/gcs/files/f3b11e36be14a5d31c75b19d03996fed.gif?auto=format&w=1920" class="w-20 rounded-box" />
+                  <span>RENGO</span>
+                </div>
+                <h4>2.7 ETH</h4>
+              </div>
+            </div>
+
+            <div class="basis-1/2 ml-5">
+              <div class="flex justify-between border-y-2 p-2">
+                <h4>Collection</h4>
+                <h4>Floor Price</h4>
+              </div>
+              <div class="flex items-center justify-between p-2">
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <img src="https://i.seadn.io/gcs/files/bfc7296fe6ca88521a4b28d7b084a085.gif?auto=format&w=1920" class="w-20 rounded-box" />
+                  <span>poobsnft</span>
+                </div>
+                <h4>0.07 ETH</h4>
+              </div>
+              <div class="flex items-center justify-between p-2">
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <img src="https://i.seadn.io/gcs/files/f3b11e36be14a5d31c75b19d03996fed.gif?auto=format&w=1920" class="w-20 rounded-box" />
+                  <span>RENGO</span>
+                </div>
+                <h4>2.7 ETH</h4>
+              </div>
+              <div class="flex items-center justify-between p-2">
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <img src="https://i.seadn.io/gcs/files/bfc7296fe6ca88521a4b28d7b084a085.gif?auto=format&w=1920" class="w-20 rounded-box" />
+                  <span>poobsnft</span>
+                </div>
+                <h4>0.07 ETH</h4>
+              </div>
+              <div class="flex items-center justify-between p-2">
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <img src="https://i.seadn.io/gcs/files/f3b11e36be14a5d31c75b19d03996fed.gif?auto=format&w=1920" class="w-20 rounded-box" />
+                  <span>RENGO</span>
+                </div>
+                <h4>2.7 ETH</h4>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </body>
 </html>
